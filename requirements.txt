@@ -1,0 +1,5 @@
+PyQt5==5.15.11
+pyqtgraph==0.13.7
+numpy>=1.26,<3
+paho-mqtt==2.1.0
+amqtt==0.11.3
