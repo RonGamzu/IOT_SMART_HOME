@@ -1,6 +1,6 @@
 # HomeGuard
 
-A local IoT course project by Ron and Itzhak. Python software devices communicate through a real MQTT broker. A data manager validates and stores measurements in SQLite, evaluates temperature thresholds, sends relay commands and publishes Info/Warning/Alarm events. A PyQt5 dashboard displays live values, persisted history, events and relay acknowledgements.
+A local IoT course project by Ron Gam Ze Letova and Itzhak Davidov. Python software devices communicate through a real MQTT broker. A data manager validates and stores measurements in SQLite, evaluates temperature thresholds, sends relay commands and publishes Info/Warning/Alarm events. A PyQt5 dashboard displays live values, persisted history, events and relay acknowledgements.
 
 ## Run
 
@@ -107,7 +107,7 @@ Software emulators only. No implemented CO2/air-pollution measurement, physical 
 
 The default local broker has no TLS or user authentication and listens only on loopback. This demo is not a production deployment and has no claimed GDPR compliance, 99.9% availability or guaranteed latency.
 
-Record a 10–12 minute explanation by Ron and Itzhak and insert its link into the 12-slide presentation.
+Record a 10–12 minute explanation by Ron Gam Ze Letova and Itzhak Davidov and insert its link into the 12-slide presentation.
 
 The test suite uses an available local port and a temporary database. Device windows show connection loss, and input commands attempted while disconnected are not applied later. After reconnection, subscriptions are acknowledged before clients report readiness, and fresh sensor readings resume automatic control.
 
