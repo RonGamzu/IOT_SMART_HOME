@@ -101,13 +101,13 @@ For a clean measurement count in each recording, set `HOMEGUARD_DB` to a new fil
 - The recorded run persisted 261 measurements and 18 events for five devices; the GUI observed 319 MQTT messages.
 - The run used local port 18886. Counts depend on runtime and are not performance guarantees.
 
-## Limits and remaining submission work
+## Limits and presentation recording
 
 Software emulators only. No implemented CO2/air-pollution measurement, physical hardware calibration, login/registration, mobile app, cloud DB or automatic room-temperature physics. Turning the relay on changes its state; it does not itself lower the simulated DHT input. The extra sensitivity value is a simulated legacy quantity, not an acoustic or health metric.
 
 The default local broker has no TLS or user authentication and listens only on loopback. This demo is not a production deployment and has no claimed GDPR compliance, 99.9% availability or guaranteed latency.
 
-Record a 10–12 minute explanation by Ron Gam Ze Letova and Itzhak Davidov and insert its link into the 12-slide presentation.
+Presentation recording by Ron Gam Ze Letova and Itzhak Davidov: [Watch the presentation](https://youtu.be/Xm1u0KyCRGg). The link is also included in the presentation and project summary.
 
 The test suite uses an available local port and a temporary database. Device windows show connection loss, and input commands attempted while disconnected are not applied later. After reconnection, subscriptions are acknowledged before clients report readiness, and fresh sensor readings resume automatic control.
 

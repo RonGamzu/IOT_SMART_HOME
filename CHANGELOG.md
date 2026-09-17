@@ -31,4 +31,4 @@ The broker binds only to `127.0.0.1`. Deployment outside the local machine requi
 
 The accompanying presentation contains 12 slides and the embedded demo on slide 10.
 The previous 19-slide PDF described several unimplemented features and was rewritten accordingly.
-The students' 10–12 minute presentation recording is still pending and must be linked before submission.
+The presentation recording is linked in the presentation and summary: https://youtu.be/Xm1u0KyCRGg
